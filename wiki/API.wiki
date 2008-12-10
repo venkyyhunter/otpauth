@@ -3,15 +3,15 @@
 
 = Files =
 
-* alphanums.php-contains only a lookup table of alphanumeric characters
-* iso-646.ivcs.php - array definition of iso-646 2048 short word dictionary and reverse lookup table
-* iso-646.ivcs.clean.php - array definition of iso-646 2048 short word dictionary and reverse lookup table. *Loaded words replaced* ([http://domain/page see why this is necessary]).
-* nutils.php - various numeric utilities. left shift unsigned long numbers, etc.
-* otp.php - core OTP functions, such as generate().
-* otp_io.php - i/o functions that are application specific. For instance, store_hash() may be specific to your database.
-* readme - simple readme text file
-* demo/ - contains a demo login application using the library
-* tests/ - various unit tests, etc.
+# alphanums.php - contains only a lookup table of alphanumeric characters
+# iso-646.ivcs.php - array definition of iso-646 2048 short word dictionary and reverse lookup table
+# iso-646.ivcs.clean.php - array definition of iso-646 2048 short word dictionary and reverse lookup table. *Loaded words replaced* ([http://domain/page see why this is necessary]).
+# nutils.php - various numeric utilities. left shift unsigned long numbers, etc.
+# otp.php - core OTP functions, such as generate().
+# otp_io.php - i/o functions that are application specific. For instance, store_hash() may be specific to your database.
+# readme - simple readme text file
+# demo/ - contains a demo login application using the library
+# tests/ - various unit tests, etc.
 
 = Constants & Globals =
 
