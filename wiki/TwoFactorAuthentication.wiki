@@ -1,7 +1,7 @@
 #summary An explanation of two-factor auth and why otp is a good poor man's solution
 #labels Featured,Phase-Requirements,Phase-Design
 
-==Two-Factor Authentication==
+==What is Two-Factor Authentication?==
 
 True two-factor authentication is a system wherein two different factors are used in combination to authenticate the user. Using two factors instead of one factor will deliver a higher level of authentication assurance. The combined factors could be 
 
