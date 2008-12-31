@@ -1,0 +1,8 @@
+#summary Roadmap of future development plans.
+#labels Featured,Phase-Requirements,Phase-QA,Phase-Support
+
+Future testing tasks include:
+
+  * writing a comprehensive test plan
+  * writing click-tests (maybe with selenium)
+  * writing performance tests
