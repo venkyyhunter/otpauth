@@ -1,6 +1,8 @@
 #summary This page discusses ways to use OTP for two-factor authentication.
 #labels Phase-Deploy
 
+_See also: [http://code.google.com/p/otpauth/wiki/TwoFactorAuthentication Two Factor Authentication and why one-time passwords are a good poor man's solution]_
+
 = Scenario A: Helpdesk-Assisted OTP  =
 For those who have ever worked on a system with onerous security requirements, here is a cheap, true two-factor authentication solution that adds a minimal effort to your helpdesk staff workload. The trick here is to distribute a list of One-Time Passwords using POP (Plain-Old-Paper). 
 
