@@ -25,10 +25,127 @@
 = Functions =
 
 == Core OTP Functions ==
+/* **************************************************************************************
+        * FUNCTION          : validate_otp($otp)
+        * LAST UPDATED      : February 2005
+        * PARAMS            :
+        *  $otp               a six-word format OTP, typically from user input.
+        *
+        * DESCRIPTION       : Checks to see if the input OTP is valid based on hash of previous.
+        *      ************************************************************************************** */
 
-valid_otp($otp) 
-parameters: $otp - a six-word format OTP as either array or whitespace separated string
-return value: true or false depending on whether the otp is valid
+/* **************************************************************************************
+        * FUNCTION          : generate_otp_list_and_store()
+        * LAST UPDATED      : Frvrmnrt 2008
+        * PARAMS            : none
+        *
+        * DESCRIPTION       : returns a six-word format list of N OTPs, and stores the first hash
+        *                     in the database.
+        * ************************************************************************************** */
+
+/* **************************************************************************************
+        * FUNCTION          : generate_otp_list()
+        * LAST UPDATED      : February 2005
+        * PARAMS            : none
+        *
+        * DESCRIPTION       : returns a six-word format list of N OTPs, and stores the first hash
+        *                     in the database.
+        *
+        ************************************************************************************** */
+
+
+
+/* **************************************************************************************
+        * FUNCTION          : simplifiedInitialStep()
+        * LAST UPDATED      : February 2005
+        * PARAMS            : none
+        *
+        * DESCRIPTION       : Creates the initial hash based off random seed
+        *
+        ************************************************************************************** */
+
+
+/* **************************************************************************************
+        * FUNCTION          : computationStep($S, $numberOfOTPs)
+        * LAST UPDATED      : February 2005
+        * PARAMS            :
+        *  $S                 $initial hash
+        *  $numberOfOTPs      $size of list to create
+        *
+        * DESCRIPTION       : This function takes an initial hash and the number of OTPs to create
+        *                     and returns a list of size $numberOfOTPs
+        *
+        ************************************************************************************** */
+
+
+
+/* **************************************************************************************
+        * FUNCTION          : ivcs_transform_array_to($otpList)
+        * LAST UPDATED      : December 2008
+        * PARAMS            :
+        *  $otpList           An array of OTPs of variable size
+        *
+        * DESCRIPTION       : This function takes an otp list and returns the same list in
+        *                     six-word format. Invalid otps in the list are return as nulls.
+        *
+        * UPDATE            : Added exception throwing for certain error conditions
+        *
+        ************************************************************************************** */
+
+/* **************************************************************************************
+        * FUNCTION          : ivcs_transform_to($hex)
+        * LAST UPDATED      : February 2005
+        * PARAMS            :
+        *   $hex              a string representation of a hex number
+        *
+        * DESCRIPTION       : Takes $hex and returns an ivcs word form of the number
+        *
+        ************************************************************************************** */
+
+
+
+
+/* **************************************************************************************
+        * FUNCTION          : ivcs_transform_from($six_word)
+        * LAST UPDATED      : February 2005
+        * PARAMS            :
+        *   $six_word         An array or whitespace separated string of six-words in the ivcs list
+        *
+        * DESCRIPTION       : Takes six-word ivcs format and returns a hex representation
+        *
+        ************************************************************************************** */
+
+
+/* **************************************************************************************
+        * FUNCTION          : __otp_hash($hexstr)
+        * LAST UPDATED      : February 2005
+        * PARAMS            :
+        *   $hexstr           a hex-string
+        *
+        * DESCRIPTION       : Breaks $hexstr (a hex string) into five 32-bit/4-byte values.
+        *                     This is 160 bits total, and is ALWAYS the size of a sha1 hash value
+        *                     regardless of hash input. Applies folding algorithm to condense
+        *                     into 64-bit hash.
+        *
+        ************************************************************************************** */
+
+
+/* **************************************************************************************
+        * FUNCTION          : rfc2289_checksum($boolArr)
+        * LAST UPDATED      : February 2005
+        * PARAMS            :
+        *   $boolArr
+        *
+        * DESCRIPTION       : Calculates checksum per RFC2289 spec.  Returns 2 lsb's of checksum
+        *                     in an array.
+        *
+        ************************************************************************************** */
+
+
+
+
+
+
 
 
 == Numeric and Random Functions ==
