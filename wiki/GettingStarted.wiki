@@ -8,10 +8,10 @@ getting started text
 integration guide
 
 
+=API Documentation=
+The OTPauth php library is a small set of functions, but they are well-documented. It is not class-based, but rather functional. Therefore, it will work with both php4 and php5. The API documentation can be found at [http://code.google.com/p/otpauth/docs]
 
-
+=Developer Integration=
 Developer integration:
   # Run generator() function in otp.php from administrative page to generate user list
   # Use valid_otp() function in otp.php at auth time to determine if auth is valid
-
-
