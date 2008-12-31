@@ -1,0 +1,17 @@
+#summary Getting started with OTPauth guide.
+#labels Phase-Implementation,Phase-Deploy
+
+= Introduction =
+Coming soon:
+link to API documentation
+getting started text
+integration guide
+
+
+
+
+Developer integration:
+  # Run generator() function in otp.php from administrative page to generate user list
+  # Use valid_otp() function in otp.php at auth time to determine if auth is valid
+
+
