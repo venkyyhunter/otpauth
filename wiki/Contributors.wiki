@@ -1,0 +1,9 @@
+#summary List of contributors and their roles
+
+=Committers=
+james.barkley
+
+=Patch providers=
+
+
+=Documentation and testing support=
