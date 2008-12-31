@@ -1,5 +1,6 @@
 #summary An explanation of two-factor auth and why otp is a good poor man's solution
 #labels Featured,Phase-Requirements,Phase-Design
+_See also: [http://code.google.com/p/otpauth/wiki/usage_scenarios Usage Scenarios]_
 
 ==What is Two-Factor Authentication?==
 
@@ -22,4 +23,6 @@ Today, almost all web-based two-factor authentication solutions involve some for
 
 
 ==Enter: OTP (rfc 2289) - that old open source derivative of the Bellcorp S/key technology (rfc 1760).==
-For more information on *rfc2289, A One-Time Password System*, check out the wikipedia page at [http://en.wikipedia.org/wiki/One-time_password] or see the full spec at [http://www.ietf.org/rfc/rfc2289.txt]. The important point here is that, implemented correctly, OTP provides a less expensive two-factor authentication solution for web sites. See the [http://code.google.com/p/otpauth/wiki/usage_scenarios Usage Scenarios] section for more information about how.
+For more information on *rfc2289, A One-Time Password System*, check out the wikipedia page at [http://en.wikipedia.org/wiki/One-time_password] or see the full spec at [http://www.ietf.org/rfc/rfc2289.txt]. The important point here is that, implemented correctly, OTP provides a less expensive two-factor authentication solution for web sites. 
+
+See the [http://code.google.com/p/otpauth/wiki/usage_scenarios Usage Scenarios] section for more information about how.
