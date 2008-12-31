@@ -1,7 +1,7 @@
 #summary Contributing to the OTPauth project
 #labels Featured,Phase-Support,Phase-Implementation
 
-=Submitting a path=
+=Submitting a patch=
   * Make the changes in a Subversion (or git-svn) checkout
   * Run the test suit, using php (hit tests/all_tests.php from a browser, or type "php tests/all_tests.php"
   * Make sure the test results are the same or better as before your changes. You can check this by looking at the currently published unit tests page at [http://code.google.com/p/otpauth/wiki/Unit_Tests]
