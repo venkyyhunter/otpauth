@@ -28,9 +28,3 @@ This project is unfunded and has a low contributor factor; and so, no hard dates
   * port to java
   * add great internationalization support
   
-=Super Long Term (by December 2012)=
-  * magnetic pole reversal
-  * rapture
-  * coming of antichrist
- 
-*hahaha, haven't you heard of the 2012 prophecies !?!?!?*
