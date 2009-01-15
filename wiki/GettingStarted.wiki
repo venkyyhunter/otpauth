@@ -8,7 +8,7 @@ If the demo app works correctly in your environment, you will then need to integ
 
 
 =API Documentation=
-The OTPauth php library is a small set of functions, but they are well-documented. It is not class-based, but rather functional. Therefore, it will work with both php4 and php5. The API documentation can be found at [http://code.google.com/p/otpauth/docs]
+The OTPauth php library is a small set of functions, but they are well-documented. It is not class-based, but rather functional. Therefore, it will work with both php4 and php5. The API documentation can be found at [http://code.google.com/p/otpauth/wiki/API]
 
 =Developer Integration=
 Developer integration:
