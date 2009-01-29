@@ -1,0 +1,5 @@
+To use:
+1. deploy otpauth directory to "app/plugins/" directory
+2. create the database tables using the otpauth.sql file. This should create the three tables "users", "sessions", and "otps"
+3. replace root file and test
+

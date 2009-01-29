@@ -3,4 +3,10 @@
     {
         //...
     }
+
+    //buggy cake paranoia
+    class OtpauthController extends AppController
+    {
+        //...
+    }
 ?>
